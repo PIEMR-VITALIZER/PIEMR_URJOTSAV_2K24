@@ -34,7 +34,7 @@
         <!--? About Law Start-->
         <header>
           <!--? Header Start -->
-          <div class="header-area">
+          <div class="header-area" id="header_parent">
             <div class="main-header header-sticky">
               <div class="container-fluid">
                 <div class="row align-items-center">
@@ -43,17 +43,54 @@
                       <img src="../assets/urjotsav_logo.png" width="125px" alt="" />
                     </div>
                   </div>
+                  <div class="col-xl-1 col-lg-1 col-md-1">
+                    <div
+                      class="dropdown dropdown1"
+                      style="margin-left: 10px; float: inline-end"
+                    >
+                      <button class="dropbtn" style="font-weight: bold">
+                        Events <i class="arrow down"></i>
+                      </button>
+                      <div class="dropdown-content1">
+                        <a href="#workshop1" style="text-decoration: none"
+                          >Workshop</a
+                        >
+                        <a href="#comp" style="text-decoration: none"
+                          >Competitions</a
+                        >
+                        <a href="#techtalk" style="text-decoration: none"
+                          >Tech Talk</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+    
                   <div class="col-xl-8 col-lg-8 col-md-8">
                     <div
                       class="menu-main d-flex align-items-center justify-content-end"
                     >
-                      <div class="main-menu f-right d-none d-lg-block">
+                      <div class="main-menu d-none f-right d-lg-block">
                         <nav>
                           <ul id="navigation">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="schedule.html">Schedule</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <div class="dropdown">
+                              <button class="dropbtn">
+                                Events <i class="arrow down"></i>
+                              </button>
+                              <div class="dropdown-content1">
+                                <a href="#workshop1" style="text-decoration: none"
+                                  >Workshop</a
+                                >
+                                <a href="#comp" style="text-decoration: none"
+                                  >Competitions</a
+                                >
+                                <a href="#techtalk" style="text-decoration: none"
+                                  >Tech Talk</a
+                                >
+                              </div>
+                            </div>
                           </ul>
                         </nav>
                       </div>
@@ -63,10 +100,10 @@
                     <div class="logo">
                       <img
                         src="../assets/above_all.png"
-                        width="125px"
+                        width="105px"
                         alt=""
                         style="margin-top: 1vh"
-                        class="img"
+                        class="img1"
                       />
                     </div>
                   </div>
@@ -74,10 +111,10 @@
                     <div class="logo">
                       <img
                         src="../assets/img/logo/piemr-logo.png"
-                        width="100px"
+                        width="90px"
                         alt=""
                         style="margin-left: 2vw"
-                        class="img"
+                        class="img1"
                       />
                     </div>
                   </div>
@@ -94,9 +131,9 @@
     <main style="
     margin-top: 3vh; margin-bottom: 1vw;">
           <div class="container" >
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="about-back-img " >
-                <img src="../assets/img/gallery/aiclub.png" alt=""  style="margin-bottom: 2vh;"/>
+                <img src="../assets/img/gallery/aiclub.png" alt="" class="poster" style="margin-bottom: 2vh;"/>
               </div>
               <div class="col-lg-6 col-md-12 ujj">
                 <div class="about-caption mb-50">
@@ -107,7 +144,8 @@
                     <p>
     Unveiling the Power of AI and OpenCV: A Hands-on Workshop on Computer Vision
     Followed by OpenCV Mastermind Challenge.
-                        <p></p>
+                        </p>
+                        <p>
                         Explore how computers "see" and understand the visual world. Learn how AI is revolutionizing CV applications like self-driving cars and facial recognition.
                     </p>
                     <br>
