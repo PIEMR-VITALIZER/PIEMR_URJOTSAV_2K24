@@ -79,13 +79,14 @@ input {
 }
 
 .headings {
-    margin-left: 5%;
+    margin-left: 7%;
     width: 100vw;
     color: #26264b;
     font-weight: 700;
     font-size: 30px;
     font-family: 'poppins';
-    margin-top: 30px;
+    margin-top: 15px;
+    /* hello */
 }
 
 .nav_parent {
@@ -179,10 +180,11 @@ body {
     #carousel_parent {
         display: none;
     }
+
 }
 
 @media (max-width:1200px) {
-    .img1 {
+    .img {
         display: none;
     }
 
@@ -191,9 +193,7 @@ body {
     }
 
 }
-.header-area{
-    width: 100vw;
-}
+
 .details_parent {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -204,13 +204,6 @@ body {
 @media (max-width:800px) {
     .details_parent {
         grid-template-columns: 1fr;
-    }
-    .front_img_parent{
-        display: none;
-    }
-    .up_button_parent{
-        bottom: 20px;
-        right: 20px;
     }
 
 }
