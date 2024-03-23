@@ -313,3 +313,10 @@ html {
     }
 
 }
+
+@media (min-width:305px) {
+    .header-area {
+        height: 16vh;
+    }
+
+}
