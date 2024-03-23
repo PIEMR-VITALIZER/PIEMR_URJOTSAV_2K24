@@ -155,11 +155,30 @@ body {
     margin-bottom: 30px;
 }
 
+.up_button_parent{
+    height: 50px;
+    width: 50px;
+    background-color: #0075D4;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    z-index: 3;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.up_anc :hover{
+    cursor: pointer;
+}
+
 @media (max-width:1200px) {
     #carousel_parent {
         display: none;
     }
-
 }
 
 @media (max-width:1200px) {
@@ -188,6 +207,10 @@ body {
     }
     .front_img_parent{
         display: none;
+    }
+    .up_button_parent{
+        bottom: 20px;
+        right: 20px;
     }
 
 }
