@@ -79,7 +79,7 @@ input {
 }
 
 .headings {
-    margin-left: 7%;
+    margin-left: 5%;
     width: 100vw;
     color: #26264b;
     font-weight: 700;
@@ -253,7 +253,7 @@ html {
 .up_button_parent {
     height: 50px;
     width: 50px;
-    background-color: #000000;
+    background-color: #0075D4;
     position: fixed;
     bottom: 30px;
     right: 50px;
