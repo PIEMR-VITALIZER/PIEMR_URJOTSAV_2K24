@@ -79,13 +79,13 @@ input {
 }
 
 .headings {
-    margin-left: 7%;
+    margin-left: 5%;
     width: 100vw;
     color: #26264b;
     font-weight: 700;
     font-size: 30px;
     font-family: 'poppins';
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .nav_parent {
@@ -163,7 +163,7 @@ body {
 }
 
 @media (max-width:1200px) {
-    .img {
+    .img1 {
         display: none;
     }
 
@@ -172,7 +172,9 @@ body {
     }
 
 }
-
+.header-area{
+    width: 100vw;
+}
 .details_parent {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -183,6 +185,9 @@ body {
 @media (max-width:800px) {
     .details_parent {
         grid-template-columns: 1fr;
+    }
+    .front_img_parent{
+        display: none;
     }
 
 }
