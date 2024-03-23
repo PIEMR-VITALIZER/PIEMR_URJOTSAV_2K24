@@ -38,7 +38,7 @@
   <body>
     <header>
       <!--? Header Start -->
-      <div class="header-area">
+      <div class="header-area" id="header_parent">
         <div class="main-header header-sticky">
           <div class="container-fluid">
             <div class="row align-items-center">
@@ -57,7 +57,14 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="schedule.html">Schedule</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <div class="dropdown">
+                          <button class="dropbtn">Events <i class="arrow down"></i></button>
+                          <div class="dropdown-content1">
+                            <a href="#">Workshop</a>
+                            <a href="#">Competitions</a>
+                            <a href="#">Talkshows</a>
+                          </div>
+                        </div>
                       </ul>
                     </nav>
                   </div>
@@ -154,6 +161,12 @@
       </div>
     </div>
   </div>  -->
+
+  <a href="#header_parent" class="up_anc">
+  <div class="up_button_parent">
+    <div class="up_button">^</div>
+  </div>
+  </a>
 
     <div class="parent" style="margin-bottom: 100px">
       <div class="headings">Workshops</div>
