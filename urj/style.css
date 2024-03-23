@@ -79,13 +79,13 @@ input {
 }
 
 .headings {
-    margin-left: 5%;
+    margin-left: 7%;
     width: 100vw;
     color: #26264b;
     font-weight: 700;
     font-size: 30px;
     font-family: 'poppins';
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .nav_parent {
@@ -155,14 +155,79 @@ body {
     margin-bottom: 30px;
 }
 
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #63b0e8;
+    color: #112957;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 39px 15px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #112957;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.arrow {
+    border: solid rgba(0, 0, 0, 0.505);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropbtn:hover .dropdown-content1 {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #4da9eb;
+}
+
 @media (max-width:1200px) {
     #carousel_parent {
         display: none;
     }
+
 }
 
 @media (max-width:1200px) {
-    .img1 {
+    .img {
         display: none;
     }
 
@@ -171,9 +236,7 @@ body {
     }
 
 }
-.header-area{
-    width: 100vw;
-}
+
 .details_parent {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -184,13 +247,6 @@ body {
 @media (max-width:800px) {
     .details_parent {
         grid-template-columns: 1fr;
-    }
-    .front_img_parent{
-        display: none;
-    }
-    .up_button_parent{
-        bottom: 20px;
-        right: 20px;
     }
 
 }
