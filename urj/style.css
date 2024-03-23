@@ -7,7 +7,7 @@
 }
 
 body {
-    max-width: 99vw;
+    max-width: 100vw;
     overflow-x: hidden;
     /* Hide horizontal scrollbar */
     background-color: #faf2e6;
@@ -271,7 +271,7 @@ html {
 }
 
 .header-area {
-    max-width: 100vw;
+    max-width: 100.2vw;
 }
 
 @media (max-width:1200px) {
