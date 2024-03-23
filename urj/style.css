@@ -20,7 +20,6 @@ body {
 
 .parent {
     width: 99vw;
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     /* grid-template-columns : repeat(auto-fill, minmax(300px, 1fr));
@@ -257,6 +256,17 @@ body {
 
 .up_anc :hover {
     cursor: pointer;
+}
+
+.footer_parent{
+    background-color: #5eaee7;
+}
+
+.college_logo{
+    background-image: url("https://d3md8ar2i5icyz.cloudfront.net/wp-content/uploads/2022/11/footer_logo.svg");
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 @media (max-width:1200px) {
