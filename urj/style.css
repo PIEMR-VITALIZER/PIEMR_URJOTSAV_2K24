@@ -27,8 +27,9 @@ body {
     grid-gap : 20px; */
     gap: 40px;
     align-items: space-around;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 100px;
+    margin-left: 35px;
 }
 
 .card {
@@ -78,7 +79,7 @@ input {
 }
 
 .headings {
-    margin-left: 5%;
+    margin-left: 40px;
     width: 100vw;
     color: #26264b;
     font-weight: 700;
@@ -334,6 +335,12 @@ a {
 }
 
 @media (max-width:1200px) {
+
+    .parent{
+        margin-left: 0px;
+        justify-content: center;
+    }
+
     .img1 {
         display: none;
     }
