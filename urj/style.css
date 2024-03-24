@@ -196,7 +196,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -274,7 +274,7 @@ html {
     max-width: 100.2vw;
 }
 
-.footer_parent{
+.footer_parent {
     background-color: #5eaee7;
     padding: 30px 50px 30px 50px;
     display: flex;
@@ -283,7 +283,7 @@ html {
     font-family: poppins;
 }
 
-.college_logo_parent{
+.college_logo_parent {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -291,30 +291,30 @@ html {
 }
 
 
-.college_logo{
+.college_logo {
     background-image: url("https://d3md8ar2i5icyz.cloudfront.net/wp-content/uploads/2022/11/footer_logo.svg");
     height: 160px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.social_logo{
+.social_logo {
     font-size: 30px;
     color: inherit;
 }
 
-.social_logo :hover{
+.social_logo :hover {
     cursor: pointer;
-    color:darkblue
+    color: darkblue
 }
 
-.social_media{
+.social_media {
     display: flex;
     gap: 15px;
     justify-content: flex-start;
 }
 
-.footer_cat{
+.footer_cat {
     margin-top: 30px;
     width: 200px;
     display: flex;
@@ -322,7 +322,7 @@ html {
     gap: 10px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -342,7 +342,7 @@ a{
         height: 14vh;
     }
 
-    .footer_parent{
+    .footer_parent {
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 10%;
@@ -357,7 +357,7 @@ a{
     row-gap: 30px;
 }
 
-.ribbon_parent{
+.ribbon_parent {
     border-top: 1.5px solid black;
     display: flex;
     justify-content: center;
@@ -366,7 +366,7 @@ a{
     background-color: #5292c1;
 }
 
-.ribbon{
+.ribbon {
     margin: 3px;
 }
 
@@ -375,7 +375,7 @@ a{
         grid-template-columns: 1fr;
     }
 
-    .headings{
+    .headings {
         margin-top: 40px;
     }
 
@@ -390,11 +390,11 @@ a{
         margin-right: 1vw;
     }
 
-    .footer_parent{
+    .footer_parent {
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 9vw;
-        
+
     }
 
     .up_button_parent {
@@ -402,12 +402,12 @@ a{
         right: 30px;
     }
 
-    .footer_cat{
+    .footer_cat {
         width: 350px;
         transform: scale(1.1);
     }
 
-    .college_logo{
+    .college_logo {
         transform: scale(1.1);
     }
 
