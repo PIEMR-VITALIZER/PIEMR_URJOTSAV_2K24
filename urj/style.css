@@ -19,7 +19,6 @@ body {
 
 
 .parent {
-    width: 99vw;
     display: flex;
     flex-wrap: wrap;
     /* grid-template-columns : repeat(auto-fill, minmax(300px, 1fr));
