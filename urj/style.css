@@ -391,6 +391,7 @@ a {
     }
 
     .poster {
+        margin-top: 1vh;
         max-width: 92vw;
         margin-left: 2vw;
         margin-right: 1vw;
