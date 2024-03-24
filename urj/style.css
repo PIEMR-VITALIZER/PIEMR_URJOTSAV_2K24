@@ -280,6 +280,7 @@ html {
     display: flex;
     justify-content: space-around;
     border-top: 1.5px solid #667799;
+    font-family: poppins;
 }
 
 .college_logo_parent{
@@ -379,11 +380,21 @@ a{
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 7vw;
+        
     }
 
     .up_button_parent {
         bottom: 30px;
         right: 30px;
+    }
+
+    .footer_cat{
+        width: 350px;
+        transform: scale(1.1);
+    }
+
+    .college_logo{
+        transform: scale(1.1);
     }
 
 }
