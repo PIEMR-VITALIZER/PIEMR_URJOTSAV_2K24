@@ -19,7 +19,6 @@ body {
 
 
 .parent {
-    width: 99vw;
     display: flex;
     flex-wrap: wrap;
     /* grid-template-columns : repeat(auto-fill, minmax(300px, 1fr));
@@ -29,7 +28,7 @@ body {
     align-items: space-around;
     justify-content: flex-start;
     margin-bottom: 100px;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 .card {
@@ -85,7 +84,7 @@ input {
     font-weight: 700;
     font-size: 30px;
     font-family: 'poppins';
-    margin-top: 50px;
+    padding-top: 50px;
     /* hello */
 }
 
