@@ -280,6 +280,7 @@ html {
     display: flex;
     justify-content: space-around;
     border-top: 1.5px solid #667799;
+    font-family: poppins;
 }
 
 .college_logo_parent{
@@ -292,7 +293,7 @@ html {
 
 .college_logo{
     background-image: url("https://d3md8ar2i5icyz.cloudfront.net/wp-content/uploads/2022/11/footer_logo.svg");
-    height: 150px;
+    height: 160px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -310,6 +311,7 @@ html {
 .social_media{
     display: flex;
     gap: 15px;
+    justify-content: flex-start;
 }
 
 .footer_cat{
@@ -355,6 +357,19 @@ a{
     row-gap: 30px;
 }
 
+.ribbon_parent{
+    border-top: 1.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: #5292c1;
+}
+
+.ribbon{
+    margin: 3px;
+}
+
 @media (max-width:800px) {
     .details_parent {
         grid-template-columns: 1fr;
@@ -378,12 +393,22 @@ a{
     .footer_parent{
         flex-wrap: wrap;
         justify-content: flex-start;
-        gap: 7vw;
+        gap: 9vw;
+        
     }
 
     .up_button_parent {
         bottom: 30px;
         right: 30px;
+    }
+
+    .footer_cat{
+        width: 350px;
+        transform: scale(1.1);
+    }
+
+    .college_logo{
+        transform: scale(1.1);
     }
 
 }
