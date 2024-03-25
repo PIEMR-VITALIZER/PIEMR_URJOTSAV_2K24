@@ -376,6 +376,13 @@ a {
     margin: 3px;
 }
 
+.about{
+    margin-left: 40px;
+    font-weight: 300;
+    margin-top: 2vh;
+    font-size: medium;
+}
+
 @media (max-width:800px) {
     .details_parent {
         grid-template-columns: 1fr;
