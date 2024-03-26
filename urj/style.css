@@ -462,7 +462,7 @@ a {
 
 }
 
-@media (max-height:275px) {
+@media (max-height:330px) {
     .header-area {
         height: 34vh;
     }
