@@ -332,6 +332,7 @@ a {
     /* .front_img_parent {
         display: none;
     } */
+
     .front_img {
         height: 51vw;
         width: 92vw;
@@ -342,8 +343,12 @@ a {
     }
 
     .front_img_parent {
-        margin: 0 10px 0 10px;
+        /* margin: 0 10px 0 10px; */
         margin-top: 30px;
+        height: 51vw;
+        width: 98vw;
+        margin-left: 2px;
+        justify-content: center;
     }
 
 }
@@ -453,6 +458,13 @@ a {
 @media (min-width:305px) {
     .header-area {
         height: 15vh;
+    }
+
+}
+
+@media (max-height:275px) {
+    .header-area {
+        height: 34vh;
     }
 
 }
