@@ -29,6 +29,7 @@ body {
     justify-content: flex-start;
     margin-bottom: 100px;
     margin-left: 80px;
+    margin-right: 20px;
 }
 
 .card {
@@ -351,6 +352,7 @@ a {
 
     .parent {
         margin-left: 0px;
+        margin-right: 0px;
         justify-content: center;
     }
 
